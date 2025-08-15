@@ -1,0 +1,32 @@
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+venv/
+ENV/
+env/
+*.env
+
+# Model artifacts & data
+models/*.joblib
+data/
+*.csv
+
+# IDE
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/
+
+# Docker
+*.log
+dist/
+build/
+
+# macOS
+.DS_Store
